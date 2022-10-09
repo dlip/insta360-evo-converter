@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "module": "src/index.js",
   "devDependencies": {
-    "bun-types": "latest"
+    "typescript": "^4.8.4",
+    "ts-node": "^10.9.1"
   }
 }
