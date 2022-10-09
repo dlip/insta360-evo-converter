@@ -1,19 +1,8 @@
 {
   "name": "insta360-evo-converter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dlip/insta360-evo-converter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dlip/insta360-evo-converter/issues"
-  },
-  "homepage": "https://github.com/dlip/insta360-evo-converter#readme"
+  "version": "0.0.3",
+  "module": "src/index.js",
+  "devDependencies": {
+    "bun-types": "latest"
+  }
 }

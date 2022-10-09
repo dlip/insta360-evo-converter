@@ -21,7 +21,7 @@
         inherit pkgs;
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            nodejs-16_x
+            bun
             ffmpeg
           ];
           shellHook = with pkgs; ''
